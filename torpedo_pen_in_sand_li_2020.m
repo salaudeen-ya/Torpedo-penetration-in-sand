@@ -1,5 +1,5 @@
 %==========================================================================
-% MATLAB SCRIPT TO SOLVE FOR TORPEDO ANCHOR PENETRATION DEPTH
+% MATLAB SCRIPT TO SOLVE FOR TORPEDO ANCHOR PENETRATION DEPTH IN SAND
 % according to the formulation by Li et. al (2022)
 % which is based on the cavity expansion theory
 %==========================================================================
@@ -214,5 +214,6 @@ if ~isnan(Z_final)
         hold off;
     end
 end
+
 
 
